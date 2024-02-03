@@ -89,6 +89,7 @@ a{
     grid-column: span 4;
     background-color: red;
     border-radius: 10px 10px 0 0;
+    visibility: hidden;
 }
 
 .d2{
