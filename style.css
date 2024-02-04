@@ -5,7 +5,6 @@ body{
     padding: 0;
     background-color: gray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 .box1{
@@ -35,14 +34,6 @@ body > div.container-1 > div > h1:nth-child(3){
     z-index: 1000;
 }
 
-h1{
-    animation: fadeIn 3s;
-}
-
-@keyframes fadeIn {
-    0%{opacity:0;}
-   100%{opacity:1;}
-}
 
 a{
     text-decoration: none;
@@ -68,39 +59,37 @@ a{
 
 .container-2{
     background-color: teal;
-    display: flex;
-    grid-template-columns: 150px / auto auto auto;
     align-items: center;
     justify-content: center;
     margin-top: 0;
     height: 100vh;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns:100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px  ;
-    
+
+
+
+
+
+.projects{
+    margin: 0;
+    text-align: center;
 }
 
+.projects-container{
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
 .d1{
-    grid-row: span 1;
-    grid-column: span 4;
+    margin-top: 20px;
+    /* float: left; */
+    width: 50vw;
     background-color: red;
-    border-radius: 10px 10px 0 0;
-    visibility: hidden;
 }
-
 .d2{
-    grid-row: span 2;
-    grid-column: span 2;
     background-color: green;
-    border-radius: 0px 0px 0px 10px;
-}
-.d3{
-    background-color: blue;
-    grid-row: span 2;
-    grid-column: span 2;
-    border-radius: 0px 0px 10px 0px;
-
+    width: 50vw;
+    float: right;
+    margin-top:  20px;
 }
