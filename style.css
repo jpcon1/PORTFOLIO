@@ -12,7 +12,11 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-left: 2px solid black;
     padding: 50px;
+    max-width: 100px;
     margin: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1{
@@ -65,11 +69,24 @@ a{
 
 
 .container-2{
-    background-color: teal;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(153,135,20,1) 100%);    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    height: 30vh;
+}
+
+.container-3{
+    background-color: brown;
     align-items: center;
     justify-content: center;
     margin-top: 0;
-    height: 40vh;
+    height: 100vh;
+    margin-top: 0;
+}
+
+#c2 > div > h1{
+    margin-top: 0;
 }
 
 
@@ -83,7 +100,8 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+
 }
 #c2 > div > div:nth-child(1){
     margin-top: 20px;
@@ -92,18 +110,20 @@ a{
     width: 10px;
     height: 10px;
 }
+
 img{
-    width: 100px;
-    margin-top: 100px;
+    max-width: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     /* shadow for svg image */
     filter: drop-shadow(0.5rem 0.5rem 5px rgba(0, 0, 0, 0.2));
 }
 
 #c2 > div > img:nth-child(2){
+    
     max-width: 75px;
 }
 #c2 > div > img:nth-child(3){
-    
     max-width: 85px;
 }
 #c2 > div > img:nth-child(4){
