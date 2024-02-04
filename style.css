@@ -46,7 +46,7 @@ a{
     align-items: center;
     justify-content: end;
     height: 100vh;
-    background-image: url(./laptop_coffee.jpg);
+    background-image: url(/assets/laptop_coffee.jpg);
     background-size: cover;   
     background-position: center;
     margin-top: 0;
