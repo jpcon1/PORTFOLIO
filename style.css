@@ -1,13 +1,9 @@
-.test{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
+
 
 body{
     margin: 0;
     padding: 0;
-    background-color: #373D3F;
+    background-color: black;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -38,6 +34,10 @@ body{
     color: black;
     
 }
+
+
+
+
 .box1>h1{
     color: hsl(20 50% 100%/0.2);
     background-clip: text;
@@ -93,7 +93,7 @@ a{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     grid-template-rows: 100px;
-    gap: 10px;
+    gap: 50px;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
