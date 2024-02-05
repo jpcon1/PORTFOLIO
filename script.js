@@ -12,12 +12,14 @@ animatef('.skills-container>img',{
     x:'-100%',
     stagger:0.1,
     opacity:0,
+
     scrollTrigger:{
     trigger:".box1",
     markers:1,
     start:"top top", //if top of .box1 hits top of viewport activate trigger (first top is top of box or element  second top is top of viewport)
-    end:"bottom",
+    end:"center",
     toggleActions: "play reverse play reverse ",//enter leave | goback leaveback
+    scrub:4
     },
     
 })
