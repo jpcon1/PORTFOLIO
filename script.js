@@ -19,7 +19,7 @@ animatef('.skills-container>img',{
     start:"top top", //if top of .box1 hits top of viewport activate trigger (first top is top of box or element  second top is top of viewport)
     end:"center",
     toggleActions: "play reverse play reverse ",//enter leave | goback leaveback
-    scrub:4
+    scrub:6
     },
     
 })
