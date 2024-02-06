@@ -16,10 +16,9 @@ animatef('.skills-container>img',{
     scrollTrigger:{
     trigger:".box1",
     markers:1,
-    start:"top top", //if top of .box1 hits top of viewport activate trigger (first top is top of box or element  second top is top of viewport)
-    end:"center",
+    start:"30% top", //if top of .box1 hits top of viewport activate trigger (first top is top of box or element  second top is top of viewport)
+    end:"1000px",
     toggleActions: "play reverse play reverse ",//enter leave | goback leaveback
-    scrub:4,
     },
     
 })

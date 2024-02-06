@@ -69,7 +69,7 @@ a{
     background-color: #373D3F;
     justify-content: center;
     margin-top: 0;
-    height: 50vh;
+    height: 80vh;
 }
 
 .container-3{
@@ -98,6 +98,7 @@ a{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: nowrap;
+    margin-top: 80px;
 }
 #c2 > div > div:nth-child(1){
     margin-top: 20px;
